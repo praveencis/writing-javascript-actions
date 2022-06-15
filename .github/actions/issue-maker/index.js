@@ -1,7 +1,7 @@
 const { GitHub } = require("@actions/github/lib/utils");
 
-const core = requier("@actions/core")
-const github = requier("@actions/github")
+const core = require("@actions/core")
+const github = require("@actions/github")
 
 async function run(){
     try{
